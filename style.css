@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'corporate';
+    src: url(/antipasto/AntipastoPro-Bold_trial.ttf);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#left-container {
+    width: 40%;
+    height: 100vh;
+    background-image: url(/830074.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-container {
+    width: 60%;
+    height: 100vh;
+    background-color: blue;
+}
+
+#center-strip {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#center-strip h1 {
+    font-family: 'corporate', sans-serif;
+    color: white;
+    opacity: 1;
+    font-size: 32px;
+}
