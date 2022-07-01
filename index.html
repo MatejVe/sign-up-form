@@ -10,11 +10,52 @@
 <body>
     <div id="left-container">
         <div id="center-strip">
+            <img src="/tyrell-corporation-bladerunner-logo-blade-runner-corporacion-tyrell-115629286845haq6p5zlz.png" alt="Tyrell corp logo" class="logo">
             <h1>Tyrell Corporation</h1>
         </div>
     </div>
+
     <div id="right-container">
-        
+        <div class="text">
+            <p>Want to catch dangerous androids that are running rampant in the society?</p>
+            <p>Become a Blade Runner and hunt down those criminals!</p>
+            <p>Create an account below and we will be in touch.</p>
+        </div>
+        <form action="#">
+            <div id="form">
+                <div class="form">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div class="form">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+                <div class="form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="usermail" required>
+                </div>
+                <div class="form">
+                    <label for="phone-number">Phone number</label>
+                    <input type="text" name="phone-number" id="phone-number"
+                    minlength="10" maxlength="10">
+                </div>
+                <div class="form">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
+            </div>
+            <div id="button">
+                <button type="submit">Create Account</button>
+            </div>
+            <div class="text" id="small-text">
+                Already have an account? <a href="#">Log in</a>
+            </div>
+        </form>
     </div>
 </body>
 </html>
