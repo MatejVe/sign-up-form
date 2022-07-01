@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'corporate bold';
-    src: url(/antipasto/AntipastoPro-Bold_trial.ttf);
+    src: url(antipasto/AntipastoPro-Bold_trial.ttf);
 }
 
 @font-face {
     font-family: 'corporate';
-    src: url(/antipasto/AntipastoPro_trial.ttf);
+    src: url(antipasto/AntipastoPro_trial.ttf);
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 #left-container {
     width: 40%;
     height: 100vh;
-    background-image: url(/830074.jpg);
+    background-image: url(830074.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
